@@ -28,7 +28,8 @@ SOURCES += \
     menu3.cpp \
     menu33.cpp \
     menu4.cpp \
-    menu_1.cpp
+    menu_1.cpp \
+    menu_man.cpp
 
 HEADERS += \
     dialog.h \
@@ -42,7 +43,8 @@ HEADERS += \
     menu3.h \
     menu33.h \
     menu4.h \
-    menu_1.h
+    menu_1.h \
+    menu_man.h
 
 FORMS += \
     dialog.ui \
@@ -57,7 +59,8 @@ FORMS += \
     menu3.ui \
     menu33.ui \
     menu4.ui \
-    menu_1.ui
+    menu_1.ui \
+    menu_man.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
