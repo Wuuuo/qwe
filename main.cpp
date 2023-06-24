@@ -1,13 +1,15 @@
 #include "mainwindow.h"
-#include <QMainWindow>
+
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+
     MainWindow w;
     login x;
     int ret=x.exec();
+
     while(1){
         if(ret==1){
             break;
@@ -17,6 +19,10 @@ int main(int argc, char *argv[])
             return 0;
         }
     }
-    w.show();
+    menu_1 k;
+    k.show();
+
+
+
     return a.exec();
 }

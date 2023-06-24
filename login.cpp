@@ -1,5 +1,6 @@
 #include "login.h"
 #include "ui_login.h"
+#include <QtDebug>
 
 login::login(QWidget *parent) :
     QDialog(parent),
@@ -28,5 +29,5 @@ void login::on_pB2_clicked()
 }
 
 void login::sho(){
-    show();
+   this->exec();
 }

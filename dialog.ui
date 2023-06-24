@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>645</width>
+    <height>535</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolButton {
+    background-color: #2c3e50;
+    border: none;
+    color: #ecf0f1;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 80px;
+}
+
+QToolButton:hover {
+    background-color: #34495e;
+}
+
+QToolButton:pressed {
+    background-color: #2c3e50;
+}
+
+QToolButton:checked {
+    background-color: #34495e;
+}
+
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>老王</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>老刘</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>老赵</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>老李</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>老吴</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>房间号</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>护工</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>备注</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>502</string>
+      </property>
+      <property name="font">
+       <font>
+        <kerning>true</kerning>
+       </font>
+      </property>
+      <property name="background">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>王二</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>禁油腻</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>601</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>张三</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>定期检查血压血脂</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>302</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>李四</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>无</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>303</string>
+      </property>
+      <property name="background">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="foreground">
+       <brush brushstyle="NoBrush">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="flags">
+       <set>ItemIsSelectable|ItemIsEditable|ItemIsDragEnabled|ItemIsDropEnabled|ItemIsUserCheckable|ItemIsEnabled|ItemIsTristate</set>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>马六</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>无</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>503</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>小爱同学</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="4" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget_2">
+     <row>
+      <property name="text">
+       <string>王二</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>张三</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>李四</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>马六</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>小爱同学</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>工作时长(六月)</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>打卡次数（六月）</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>好评率</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>投诉率</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>36.2h</string>
+      </property>
+     </item>
+     <item row="0" column="1">
+      <property name="text">
+       <string>24</string>
+      </property>
+     </item>
+     <item row="0" column="2">
+      <property name="text">
+       <string>97%</string>
+      </property>
+     </item>
+     <item row="0" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>23h</string>
+      </property>
+     </item>
+     <item row="1" column="1">
+      <property name="text">
+       <string>22</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>92%</string>
+      </property>
+     </item>
+     <item row="1" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>68h</string>
+      </property>
+     </item>
+     <item row="2" column="1">
+      <property name="text">
+       <string>23</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>93%</string>
+      </property>
+     </item>
+     <item row="2" column="3">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>66h</string>
+      </property>
+     </item>
+     <item row="3" column="1">
+      <property name="text">
+       <string>24</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>90%</string>
+      </property>
+     </item>
+     <item row="3" column="3">
+      <property name="text">
+       <string>1</string>
+      </property>
+     </item>
+     <item row="4" column="0">
+      <property name="text">
+       <string>2h</string>
+      </property>
+     </item>
+     <item row="4" column="1">
+      <property name="text">
+       <string>2</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>100%</string>
+      </property>
+     </item>
+     <item row="4" column="3">
+      <property name="text">
+       <string>0</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="0">
+    <widget class="QToolButton" name="toolButton_2">
+     <property name="text">
+      <string>老人组</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QToolButton" name="toolButton">
+     <property name="minimumSize">
+      <size>
+       <width>110</width>
+       <height>40</height>
+      </size>
+     </property>
+     <property name="text">
+      <string>护工组</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

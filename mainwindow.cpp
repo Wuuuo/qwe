@@ -13,7 +13,7 @@ MainWindow::MainWindow(QWidget *parent)
     ui->setupUi(this);
     //第二步
     init_menu();
-
+  // y=new login(this);
 
 }
 
@@ -80,5 +80,5 @@ void MainWindow::on_tb2_triggered(QAction *arg1){
 void MainWindow::on_tb5_clicked()
 {
 
-    connect(ui->tb5, SIGNAL(clicked()),MainWindow::y , SLOT(show()));
+   // connect(ui->tb5, SIGNAL(clicked()),y , SLOT(sho()));
 }

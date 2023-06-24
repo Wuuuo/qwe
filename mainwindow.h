@@ -5,6 +5,10 @@
 #include"menu2.h"
 #include"menu3.h"
 #include"menu4.h"
+#include"menu_1.h"
+#include "dialog.h"
+#include"menu22.h"
+#include"menu33.h"
 #include <QMainWindow>
 #include<QPushButton>
 #include<QtDebug>
@@ -24,7 +28,9 @@ public:
     void init_menu();
     //第九步
    void me1();
-login y;
+
+   //login* y;
+
 private slots:
     void on_tb2_triggered(QAction *arg1);
 
